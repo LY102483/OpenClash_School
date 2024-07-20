@@ -1,1 +1,4 @@
 IP-CIDR,172.168.0.0/16,no-resolve
+DOMAIN-KEYWORD,tailscale,no-resolve
+DOMAIN-SUFFIX,bing.com,no-resolve
+IP-CIDR,1.1.1.1/8,no-resolve
