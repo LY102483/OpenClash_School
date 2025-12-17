@@ -115,6 +115,7 @@ rules:
   - IP-CIDR,1.1.1.1/32,DIRECT
   - IP-CIDR,172.168.1.1/24,DIRECT
   - DOMAIN,pkgs.tailscale.com,节点选择
+  - DOMAIN,dl.tailscale.com,节点选择
   - DOMAIN-KEYWORD,tailscale,DIRECT
   - DOMAIN-KEYWORD,github,节点选择
   - DOMAIN-SUFFIX,bing.com,DIRECT
