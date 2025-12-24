@@ -117,6 +117,7 @@ rules:
   - DOMAIN,pkgs.tailscale.com,节点选择
   - DOMAIN,dl.tailscale.com,节点选择
   - DOMAIN-KEYWORD,tailscale,DIRECT
+  - DOMAIN-SUFFIX,ly1024.top,DIRECT
   - DOMAIN-KEYWORD,github,节点选择
   - DOMAIN-SUFFIX,bing.com,DIRECT
   - GEOSITE,private,DIRECT,no-resolve
