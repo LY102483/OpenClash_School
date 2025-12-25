@@ -16,9 +16,9 @@ proxy-groups:
     url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 50
-    use:
+    proxies:
+      - "!自建"
       - <all>
-    filter: '^(?!.*自建).*$'
   - name: 手动切换
     type: select
     proxies:
