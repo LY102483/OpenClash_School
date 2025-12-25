@@ -17,7 +17,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - <all>
+      - `^(?!.*自建).*$`
   - name: 手动切换
     type: select
     proxies:
