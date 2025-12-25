@@ -18,8 +18,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - <all>
-    filter:
-      "^(?!.*(自建|测试)).*$"
+    filter: "^(?!.*(自建|测试)).*$"
   - name: 手动切换
     type: select
     proxies:
